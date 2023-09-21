@@ -1,0 +1,112 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.pexels.com/photos/267403/pexels-photo-267403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+  }
+  
+  .loginWrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+  }
+  
+  .loginLeft,
+  .loginRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .loginLogo {
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-top: 10px;
+    font-family: Apple Chancery, cursive;
+  }
+  
+  .loginDesc {
+    font-size: 25px;
+    font-family: Apple Chancery, cursive;
+    color: #f7f7f7;
+  }
+  
+  .loginBoxx{
+      position: relative;
+      left: 150px;
+      border-style: double;
+      border-color:rgb(3, 50, 108);
+      height: 600px;
+      width: 330px;
+      padding: 20px;
+      background-color: rgb(232, 227, 227);
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      box-shadow: 2px 2px 8px  rgb(29, 76, 196);
+      
+  }
+  
+  .loginInput{
+      margin:4px;
+      height: 50px;
+      width: 300px;
+      border-radius: 10px;
+      border: 1px solid rgb(18, 74, 142);
+      font-size: 18px;
+      padding-left: 20px;
+      font-family: Apple Chancery, cursive;
+  }
+  
+  .loginInput:focus{
+      outline: hotpink;
+  }
+  
+  .loginButtonn{
+       margin: 4px;
+      height: 50px;
+      width: 325px;
+      border-radius: 10px;
+      border: none;
+      background-color: #015acf;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+      cursor: pointer;
+      font-family: Apple Chancery, cursive;
+  }
+  
+  .loginForgot{
+      text-align: center;
+      color: #1775ee;
+      font-family: Apple Chancery, cursive;
+  }
+  
+  .loginRegisterButton{
+      margin-left: 65px;
+      align-self: center;
+      width: 200px;
+      height: 70px;
+      border-radius: 10px;
+      border: none;
+      background-color: #42b72a;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+      cursor: pointer;
+      font-family: Apple Chancery, cursive;
+  }
+
+  .aa{
+    color: #015acf;
+    font-family: Apple Chancery, cursive;
+    margin-left: 8px;
+  }
+  
