@@ -1,0 +1,62 @@
+.css */
+  .mainContainer {
+    display: flex;
+  }
+
+ 
+  /*.body{
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-left: 0px;
+  }
+  .about-content{
+    width:85%;
+    background-image: url(https://images.pexels.com/photos/5926397/pexels-photo-5926397.jpeg);
+    background-size: cover;
+    color:aliceblue;
+  }
+  .p{
+    text-align: left;
+    font-family: Apple Chancery, cursive;
+    font-size: 40px;
+  }
+
+  
+  .left-align {
+    text-align: left;
+    font-family: Apple Chancery, cursive;
+    font-size: 18px;
+  }
+  
+  h2{
+    font-family: Apple Chancery, cursive;
+  }
+*/
+
+.centered-profile-form {
+  display: flex;
+  background-image: url(https://images.pexels.com/photos/5926397/pexels-photo-5926397.jpeg);
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  color: aliceblue;
+  justify-content: space-evenly;
+  width: 85%; 
+  position:relative;
+  height: 800px;
+  
+}
+
+form-group{
+  width: 100px;
+  height: 150px;
+  border: 2px solid white;
+  position: relative;
+  top:100px;
+  font-family: Apple Chancery, cursive;
+}
+
+
+  
