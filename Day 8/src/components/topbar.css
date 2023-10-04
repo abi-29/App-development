@@ -1,0 +1,138 @@
+.topbarContainer {
+    height: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .topbarLeft {
+    flex: 3;
+  }
+  
+  .logo {
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: Apple Chancery, cursive;
+  }
+  
+  .topbarCenter {
+    flex: 5;
+  }
+  
+  .searchbar {
+    width: 100%;
+    height: 38px;
+    background-color: rgb(89, 83, 83);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px;
+  }
+  
+  .searchInput {
+    border: none;
+    width: 70%;
+    margin-left: 20px;
+    background-color:  rgb(89, 83, 83);
+    font-family: Apple Chancery, cursive;
+    color: #ffffff;
+
+  }
+  
+  .searchInput:focus {
+    outline: none;
+  }
+  
+  .topbarRight {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+  }
+  
+  .topbarLink {
+    font-size: 14px;
+    cursor: pointer;
+    margin: 10px;
+    font-family: Apple Chancery, cursive;
+    font-size: 17px;
+    padding: 4px;
+  }
+  
+  .topbarIcons {
+    display: flex;
+  }
+  
+  .topbarIconItem {
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .topbarIconBadge {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  
+  .topbarImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+.topbarLinkk{
+  position: relative;
+  left:60px;
+  font-size: 17px;
+  font-family: Apple Chancery, cursive;
+  padding: 20px;
+}
+
+.topbarLin{
+  position: relative;
+  bottom: 10px;
+  left:45px;
+  font-size: 17px;
+  font-family: Apple Chancery, cursive;
+  padding: 10px;
+}
+
+.loginButtonnnn{
+   padding: 10px;
+   margin-left: 35px;
+   background-color: black;
+   height:43px;
+   color: #ffffff;
+   border-radius: 8px;
+ 
+}
+
+/* topbar.css (or your component's CSS module) */
+.topbarLink {
+  color: black;           /* Set font color to black */
+  text-decoration: none;  /* Remove underline */
+}

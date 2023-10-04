@@ -1,0 +1,36 @@
+.pets-container{
+    width: 85%;
+    background-image: url(https://images.pexels.com/photos/5926397/pexels-photo-5926397.jpeg);
+    background-size: cover;
+    color: rgb(10, 11, 12);
+    font-family: Apple Chancery, cursive;
+}
+/* Pets.css */
+
+.pets-container {
+    text-align: center;
+  }
+  
+  .pet-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pet-post {
+    border: 2px solid white; /* White outline */
+    margin: 16px;
+    padding: 16px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #fff; /* Background color */
+  }
+  
+  .pet-post img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .h1{
+    color: #fff;
+  }

@@ -1,0 +1,26 @@
+
+
+  /* Footer.css */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-links a {
+    color: #fff; /* Link text color */
+    text-decoration: none; /* Remove underlines from links */
+    margin: 0 10px; /* Add spacing between links */
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
