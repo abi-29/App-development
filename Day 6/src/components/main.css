@@ -1,0 +1,37 @@
+.aa{
+    background-image: url(https://images.pexels.com/photos/5926397/pexels-photo-5926397.jpeg);
+    height: 800px;
+    width:85%;
+    background-size: cover;
+    margin-left: 0px;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.image{
+    height: 100px;
+    width: 200px;
+}
+
+.post {
+    /* Your existing post styles here */
+    margin-bottom: 20px;
+    /* Add any other styles you want for all posts */
+  }
+  
+  .highlighted {
+    border: 2px solid white;
+    /* Add any other styles for highlighted posts here */
+    width: 600px;
+    border-radius: 7px;
+    margin-left: 300px;
+  }
+  
+  p{
+    text-align: center;
+  }
+
+  .pets-link {
+    color: white; 
+    text-decoration: none; 
+  }
